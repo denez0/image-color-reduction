@@ -5,7 +5,7 @@
 This project explores color palette reduction in images using unsupervised clustering algorithms (K-Means & K-Medoids) and evaluates the impact on compression and classification performance. The goal is to reduce thousands of unique colors in images to just 5-20 representative colors while preserving semantic information for distinguishing between cats and flowers.
 
 ## 🎯 Key Findings
-- **Compression Gain**: 78-92% reduction in file size when reducing to 5 colors
+- **Compression Gain**: 79-94% reduction in file size when reducing to 5 colors
 - **Algorithm Performance**: K-Means consistently outperforms K-Medoids across all metrics
 - **Classification Impact**: kNN classifier performed **better** on compressed data (F1: 0.727) than original data (F1: 0.625), suggesting color reduction acts as effective feature denoising
 - **Optimal Parameters**: k=5 clusters with K-Means in HSL color space provides best balance of compression and accuracy
